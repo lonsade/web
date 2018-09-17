@@ -1,0 +1,114 @@
+.allHeroes >div:first-child{
+	margin-bottom: 20px;
+}
+.typeHeroes > div{
+	display: inline-block;
+	width: 75px;
+  height: 42px;
+	margin: 7px -4px 0px 7px;
+	vertical-align: top;
+}
+.typeHeroes >div:last-child{
+	margin-bottom: 7px;
+}
+.typeHeroes{
+	display: inline-block;
+	background: url('/guides/images/resources/content.png');
+	margin-right: 16px;
+	width: 334px;
+	vertical-align: top;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+}
+.typeHeroes:last-child{
+	margin-right: 0px;
+}
+.ImgHeroForView{
+	width: 75px;
+	height: 42px;
+	display: block;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	border: 1px solid rgba(0,0,0,0.8);
+}
+.hoverHero{
+	z-index: 2;
+	position: absolute;
+	margin-left: -34px;
+	margin-top: -20px;
+	width: 137px;
+	height: 77px;
+	box-shadow: 0 0 5px rgba(100,100,100,0.8);
+	border: 1px solid rgba(100,100,100,0.8);
+}
+.allHeroes{
+	margin-top: 10px;
+}
+.select-content{
+	display: inline-block;
+	vertical-align: top;
+	height: 27px;
+	margin-left: 3px;
+}
+#select-role .list-name{
+	width: 85px;
+}
+.list-name{
+	margin-top: 1px;
+}
+.main-list, .first-list{
+    margin-top: 0px;
+}
+#select-attack .list-name{
+	width: 100px;
+}
+.filterHeroes > div{
+	display: inline-block;
+	vertical-align: top;
+}
+.helperToName{
+	width: 272px;
+	margin-left: 3px;
+	color: #e8a902;
+	font-size: 14px;
+	padding-top: 1px;
+	height: 27px;
+	text-shadow: 0 0 3px;
+	text-transform: uppercase;
+}
+.select-title{
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	border: 1px solid #0f0f0f;
+	color: #00bcff;
+	padding: 4px 6px;
+	cursor: default;
+	float: left;
+}
+.list-name, .helperToName{
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	border: 1px solid #0f0f0f;
+	background: #1e1e1e;
+	padding: 4px 6px;
+	cursor: default;
+	text-align: center;
+}
+.select-list{
+	float: left;
+	color: #9e9e9e;
+	position: relative;
+	margin-left: -1px;
+	background-color: #2e2e2e;
+}
+.filterHeroes{
+	font-size: 13px;
+}
+.list-name:not(.hover-active-list):hover{
+	color: #00bcff;
+	box-shadow: 0 0 5px rgba(100,100,100,0.5);
+}
+.active-list{
+	color: #e8a902;
+}
+.filterHeroes{
+	background-image: url('/guides/images/resources/content.png');
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	padding: 7px;
+}

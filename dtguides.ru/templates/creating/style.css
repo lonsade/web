@@ -1,0 +1,350 @@
+/*==========top==========*/
+.guide_creating .top .image{
+	display: inline-block;
+	width: 242px;
+  vertical-align: top;
+  margin-left: 3px;
+}
+.guide_creating .shot_info{
+	display: inline-block;
+	vertical-align: top;
+  width: 140px;
+}
+.guide_creating .top{
+	padding: 0 254px;
+}
+.name_hero{
+	text-transform: uppercase;
+	color: rgb(232, 169, 2);
+  text-align: center;
+	padding: 7px;
+	font-size: 18px;
+	border: 1px solid #0f0f0f;
+  text-shadow: 0 0 1px;
+  background: url(/guides/images/resources/content.png);
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  height: 41px;
+}
+.guide_creating .top .image > img{
+  border: 1px solid #0f0f0f;
+  background: url(/guides/images/resources/content.png);
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  margin-top: 7px;
+}
+.info_hero{
+	color: #9e9e9e;
+	border: 1px solid #0f0f0f;
+  background: url(/guides/images/resources/content.png);
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  margin-left: 3px;
+  margin-bottom: 7px;
+  padding: 3px 9px;
+  text-shadow: 0 0 10px;
+  height: 41px;
+}
+.info_hero:last-child{
+	margin-bottom: 0px;
+}
+.info_hero img{
+	vertical-align: -10px;
+}
+.progress_hm{
+	background-image: url(/guides/images/resources/hero/mana.png);
+	position: absolute;
+	height: 37px;
+  font-size: 15px;
+  color: #d4d5d5;
+  text-align: center;
+  margin-top: -2px;
+  margin-left: -8px;
+  border-radius: 18px;
+  padding-top: 8px;
+}
+.for_health > .progress_hm{
+	background-image: url(/guides/images/resources/hero/health.png);
+}
+/*==========tool==========*/
+.tools_for_guide textarea{
+  font-size: 16px;
+  padding: 11px;
+}
+.tools_for_guide > div{
+	background: url(/guides/images/resources/content.png);
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	padding: 7px;
+	margin-top: 7px;
+}
+.tools_for_guide .title{
+	border: 1px solid #0f0f0f;
+	color: rgb(232, 169, 2);
+	padding: 4px 6px;
+	padding-bottom: 7px;
+  padding-top: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+  outline: none;
+  cursor: default;
+  position: relative;
+}
+.error_creating{
+	position: absolute;
+	top: 4px;
+	font-size: 14px;
+	color: #e44242;
+	background: url(../../images/resources/error.png) no-repeat;
+	height: 25px;
+  display: none;
+  padding-top: 3px;
+  padding-left: 30px;
+	text-align: left;
+}
+#tool_for_itembuild .error_creating{
+  padding-top: 0px;
+  line-height: 12px;
+}
+/*==========-name==========*/
+#tool_for_name textarea{
+	height: 45px;
+}
+/*==========-about==========*/
+#tool_for_about textarea{
+	height: 82px;
+}
+/*==========-comments==========*/
+#tool_for_skills img{
+	width: 60px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	border: 1px solid #0f0f0f;
+}
+#tool_for_skills textarea{
+  height: 60px;
+}
+#tool_for_skills>div{
+	display: inline-block;
+	vertical-align: top;
+}
+#tool_for_skills .skills > div:not(:first-child){
+	margin-top: 7px;
+}
+#tool_for_skills .comments_skills{
+	margin-left: 3px;
+  width: 961px;
+}
+#tool_for_skills textarea:not(:first-child){
+	margin-top: 7px;
+}
+#tool_for_skills .skill_helper{
+	margin: -50px 74px;
+}
+/*==========-skillbuild==========*/
+#tool_for_skillbuild .skill_helper{
+	margin: -43px 58px;
+}
+.col_skills, .col_levels, .col_refresh{
+	display: inline-block;
+	vertical-align: top;
+	cursor: default;
+}
+.col_skills img{
+	width: 45px;
+	display: block;
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	border: 1px solid #0f0f0f;
+}
+.col_skills img:not(:first-child){
+	margin-top: 7px;
+}
+.col_levels > div{
+	padding-top: 10px;
+	padding-bottom: 14px;
+}
+.col_levels > div:last-child{
+	padding-bottom: 0;
+}
+.levels{
+	width: 28px;
+	height: 28px;
+	background-color: #272727;
+	border-radius: 5px;
+	display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  margin-left: 5px;
+  text-align: center;
+}
+.levels:not(.levelup_off):not(.levelup_disable):not(.levelup):not(.levelup_mb_re):hover{
+	border: 1px solid #1e1e1e;
+	background-color: #2e2e2e;
+}
+.col_refresh>div{
+	width: 51px;
+	height: 28px;
+	border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	margin: 10px 0 24px 5px;
+	background-color: #272727;
+	padding-top: 3px;
+	background: #272727 url(../../images/resources/refresh.png) no-repeat 13px 2px;
+}
+.col_refresh>div:hover{
+	background-image: url(../../images/resources/refresh_hover.png);
+}
+.col_refresh>div:last-child{
+	margin-bottom: 0;
+}
+.levelup_off, .levelup_disable, .levelup_mb_re{
+	background-color: #1a1a1a;
+}
+.levels span{
+	position: relative;
+	top: 3px;
+	color: #18adf1;
+	display: none;
+}
+.levels:not(.levelup_off):not(.levelup):not(.levelup_disable):hover span{
+	display: inline;
+}
+.levelup span{
+	display: inline;
+	color: rgb(232, 169, 2);
+}
+/*==========-itembuild==========*/
+#tool_for_itembuild textarea{
+	height: 34px;
+	padding: 5px;
+	text-align: center;
+}
+#tool_for_itembuild .gold{
+	background: url('../../images/resources/gold.png') no-repeat 0 2px;
+	width: 25px;
+	height: 17px;
+	text-indent: 28px;
+	color: #e8a902;
+	font-size: 15px;
+	position: absolute;
+	margin-top: -27px;
+  margin-left: 6px;
+}
+#tool_for_itembuild .container[data-col="1"], #tool_for_itembuild .container[data-col="7"]{
+	margin-left: 1px !important;
+}
+#tool_for_itembuild .container{
+	border-radius: 8px;
+	border: 1px solid #131313;
+	width: 52px;
+	height: 39px;
+	display: inline-block;
+	margin-left: 3px;
+  margin-top: 7px;
+  box-shadow: 0 0 3px #505050;
+  background-color: #1a1a1a;
+}
+#tool_for_itembuild .ui-droppable-active{
+	background-color: #1e1e1e;
+}
+#tool_for_itembuild .ui-droppable-hover{
+	background-color: #272727;
+	border-color: #404040;
+}
+#tool_for_itembuild .c_important{
+	box-shadow: 0 0 3px #00698e;
+}
+.content_for_items{
+	width: 349px;
+}
+#tool_for_itembuild .stages, #tool_for_itembuild .block_items{
+	display: inline-block;
+	vertical-align: top;
+}
+.block_items>div{
+	display: inline-block;
+  vertical-align: top;
+}
+.item_image{
+	width: 50px;
+	height: 37px;
+	border-radius: 8px;
+}
+.block_items{
+	margin-left: 4px;
+}
+.block_items>div:not(:first-child){
+	margin-left: 3px;
+}
+.c_item:not(:first-child){
+	margin-top: 7px;
+}
+
+#stage_4:not(.up_stage) textarea{
+	cursor: default;
+}
+#stage_4:not(.up_stage) > .container{
+	display: none;
+}
+
+
+/*==========form==========*/
+#create_guide{
+  padding-bottom: 7px;
+  padding-top: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 3px #000;
+  cursor: default;
+  box-shadow: 0 0 5px rgba(0,0,0,0.8);
+  border: 1px solid #0f0f0f;
+  background-color: #1e1e1e;
+  margin-top: 7px;
+}
+#create_guide:hover{
+	box-shadow: 0 0 5px rgba(100,100,100,0.5);
+	border: 1px solid #222;
+	background-color: #2e2e2e;
+	color: rgb(232, 169, 2);
+}
+
+/*==========hide_skill===========*/
+.shower{
+	width: 15px;
+	height: 30px;
+	position: absolute;
+	background: url('../../images/resources/shower.png') 0px 0px;
+	left: -15px;
+}
+.tooltip .name{
+	color: #e8a902;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 17px;
+	text-align: center;
+}
+.tooltip span{
+	color: #0caec9;
+}
+.tooltip p{
+	display: inline-block;
+}
+.tooltip .bio, .tooltip .other, .tooltip .cdmp{
+	font-size: 15px;
+}
+.tooltip .cdmp .cd{
+	background: url('../../images/resources/cooldown.png') no-repeat 0 2px;
+	float: left;
+}
+.tooltip .cdmp .mp{
+	background: url('../../images/resources/mana.png') no-repeat 0 2px;
+	float: right;
+}
+.tooltip .cdmp div{
+	text-indent: 20px;
+}
+.tooltip .cdmp{
+  height: 30px;
+}
+#tool_for_skills .tooltip{
+	margin-left: 74px;
+	margin-top: -60px;
+}
+#tool_for_skillbuild .tooltip{
+	margin-left: 60px;
+	margin-top: -45px;
+}

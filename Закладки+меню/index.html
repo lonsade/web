@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>html 5</title>
+    <!--[if lt IE 9]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+        <![endif]-->
+    <link rel='stylesheet' href='styles/design.css'>
+    <script src="scripts/jquery-3.0.0.min.js"></script>
+    <script src="scripts/jquery-ui.min.js"></script>
+    <script src='scripts/scroll_menu.js'></script>
+    <script src="scripts/bookmarks.js"></script>
+</head>
+
+<body>
+    <div id='container'>
+        <div id='header'>
+            <div class='text'>Header</div>
+        </div>
+        <div id='content' style='height:1000px'></div>
+        <div class='menu'>
+            <ul id='menu_block'>
+                <li class="busy_place">
+                    <div id='menu_one' class="el_menu">
+                        <div class='menu_info'>Ставки</div>
+                        <div class='menu_info_hover'></div>
+                        <div class='menu_footer'></div>
+                    </div>
+                </li>
+                <li class="busy_place">
+                    <div id='menu_two' class="el_menu">
+                        <div class='menu_info'>Продажа</div>
+                        <div class='menu_info_hover'></div>
+                        <div class='menu_footer'></div>
+                    </div>
+                </li>
+                <li class="busy_place">
+                    <div id='menu_three' class="el_menu">
+                        <div class='menu_info'>Покупка</div>
+                        <div class='menu_info_hover'></div>
+                        <div class='menu_footer'></div>
+                    </div>
+                </li>
+                <li class="busy_place">
+                    <div id='menu_four' class="el_menu">
+                        <div class='menu_info'>Обмен</div>
+                        <div class='menu_info_hover'></div>
+                        <div class='menu_footer'></div>
+                    </div>
+                </li>
+                <li class="busy_place">
+                    <div id="bookmark_create" class="el_cr_bookmark">
+                        <div class='menu_info'>Создать закладку</div>
+                        <div class="creating_mark">
+                            <div>
+                                <div class="error">Максимальное число закладок: 5</div>
+                                <div class="header_cm">
+                                    <div class="save_mark">
+                                        <canvas id="save_mark" height="21px" width="21px"></canvas>
+                                    </div>
+                                    <div class="title_cm">Создание заметки</div>
+                                    <div class="close_cm">
+                                        <canvas id="close_cm" height="21px" width="21px"></canvas>
+                                    </div>
+                                </div>
+                                <div id="name_mark">
+                                    <div class="text_input">Название закладки</div>
+                                    <input type="text" form="#" name="name_mark" maxlength="15"> </div>
+                                <div id="url_mark">
+                                    <div class="text_input">Ссылка на желаемую страницу</div>
+                                    <input type="text" form="#" name="url_mark" onclick="this.select()"> </div>
+                                <div id="extra_mark">
+                                    <div class="text_input">Дополнительная информация(если надо)</div>
+                                    <textarea form="#" name="extra_mark" maxlength="125" rows="5"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='menu_info_hover'></div>
+                        <div class='menu_footer'></div>
+                    </div>
+                </li>
+                <li></li>
+                <li> </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div id='footer'>
+            <div class='text'>Footer</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+<script type="text/javascript">var a=0;</script>

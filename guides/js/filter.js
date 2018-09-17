@@ -1,0 +1,1 @@
+$('.e_filter > select').selectmenu();

@@ -1,0 +1,24 @@
+@font-face{
+    font-family: Roboto;
+    src: url(/roboto.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html{
+    font-family: Roboto;
+}
+body{
+    padding: 7px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-shadow: 0 0 1px #ccc;
+    font-size: 14px;
+}

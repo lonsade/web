@@ -1,0 +1,1 @@
+<footer class="box_shadow"></footer>

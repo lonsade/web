@@ -1,0 +1,223 @@
+.content_guides .g_row, .g_filter{
+	border: 1px solid #0f0f0f;
+	text-align: center;
+	text-shadow: 1px 1px 3px #000;
+	background: url(/guides/images/resources/content.png);
+	box-shadow: 0 0 5px rgba(0,0,0,0.8);
+	/*Для удаления пробела*/
+	letter-spacing: -0.3em;
+}
+.content_guides .g_row > div{
+	display: inline-block;
+	padding: 4px 7px 5px;
+	vertical-align: top;
+	height: 29px;
+	/*Для удаления пробела*/
+	letter-spacing: normal;
+}
+.content_guides .g_row:not(#titles) > div{
+	height: 50px;
+}
+.content_guides .g_row{
+	cursor: default;
+}
+.content_guides .g_row:not(#titles){
+	margin-top: 7px;
+	font-size: 15px;
+	color: #c1c1c1;
+}
+.g_hero{
+	width: 81px;
+}
+.g_title{
+  width: 355px;
+  cursor: pointer;
+}
+.g_row:not(#titles) .g_title:hover, .g_row:not(#titles) .g_creator:hover{
+	color: #00bcff;
+}
+.g_patch{
+	width: 60px;
+}
+.g_creator{
+	width: 144px;
+  cursor: pointer;
+}
+.g_date{
+	width: 135px;
+}
+.g_rating{
+	width: 137px;
+}
+.g_views{
+	width: 128px;
+}
+.g_row > div:not(:last-child){
+	border-right: 2px solid #000;
+}
+#titles{
+	color: #e8a902;
+	cursor: pointer;
+}
+#titles > div{
+	position: relative;
+}
+.g_row:not(#titles) .g_rating div:not(#r_process), .g_row:not(#titles) .g_rating span{
+	background: url(../../images/resources/rating.png) 0px 22px;
+	height: 22px;
+	width: 22px;
+	display: inline-block;
+	margin-right: -1px;
+}
+.g_row:not(#titles) .g_rating span{
+	background-position: 0px 0px;
+}
+#r_process{
+  position: relative;
+  top: -26px;
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.g_hero img{
+	width: 66px;
+  border: 1px solid rgba(0,0,0,0.8);
+  margin: 2px 0px;
+}
+.g_row:not(#titles) > div:not(.g_hero){
+  padding-top: 15px;
+}
+.g_row:not(#titles):hover,.ui-menu-item:hover{
+	border-color: #2e2e2e;
+	box-shadow: 0 0 5px #2e2e2e;
+}
+
+.g_row:not(#titles):hover > div:not(:last-child){
+	border-color: #2e2e2e;
+}
+.g_row:not(#titles):hover > div{
+    background: #191919;
+}
+
+.g_sorting{
+	background-color: #191919;
+}
+.g_row:not(#titles) .g_sorting{
+	color: #d4d5d5;
+}
+
+
+
+.ui-helper-hidden-accessible{
+	display: none;
+}
+.g_filter{
+	letter-spacing: 3px;
+  margin-bottom: 7px;
+  font-size: 15px;
+  text-align: left;
+  padding: 7px;
+}
+.g_filter > div{
+	letter-spacing: normal;
+	display: inline-block;
+	vertical-align: top;
+}
+.ui-checkboxradio-label, .ui-selectmenu-button, .ui-menu-item, .field input{
+	border: 1px solid #0f0f0f;
+	text-shadow: 1px 1px 3px #000;
+	background-color: #191919;
+	box-shadow: 0 0 5px rgba(16,16,16,0.8);
+	display: block;
+	padding: 4px 7px 5px;
+	cursor: pointer;
+  height: 31px;
+}
+.ui-checkboxradio-checked, .ui-selectmenu-button-open{
+	background-color: #272727;
+	color: #00bcff;
+	box-shadow: 0 0 5px #2e2e2e;
+}
+.search > div{
+	display: inline-block;
+	vertical-align: top;
+}
+.search .type > *{
+	display: inline-block;
+	vertical-align: top;
+}
+.search .type > span:first-child{
+	margin: 5px 2px;
+}
+
+
+
+.ui-front {
+	z-index: 100;
+}
+.ui-selectmenu-menu {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	cursor: pointer;
+}
+.ui-selectmenu-menu .ui-menu{
+  outline: none;
+}
+.ui-selectmenu-open {
+	display: block;
+}
+.ui-selectmenu-text {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.ui-selectmenu-button{
+	outline: none;
+}
+.ui-menu-item{
+	margin-top: 2px;
+	list-style-type: none;
+}
+.ui-checkboxradio-label:not(.ui-checkboxradio-checked):hover, .ui-selectmenu-button:not(.ui-selectmenu-button-open):hover, .ui-menu-item:hover{
+	background-color: #232323;
+}
+.ui-selectmenu-menu .ui-menu{
+	background-color: #191919;
+	font-size: 15px;
+}
+
+
+.field{
+	position: relative;
+}
+.field input{
+  outline: none;
+  cursor: text;
+	width: 478px;
+	margin-left: 3px;
+	margin-right: 1px;
+	color: #d4d5d5;
+	padding-right: 30px;
+}
+.field input:not(:focus):hover{
+	background-color: #232323;
+}
+.field input:focus{
+	background-color: #272727;
+	box-shadow: 0 0 5px #2e2e2e;
+}
+.icon_search{
+	position: absolute;
+	width: 19px;
+	height: 19px;
+	background-image: url(../../images/resources/search.png);
+	right: 6px;
+  top: 6px;
+}
+.icon_search:hover{
+	background-position: -19px 0px;
+}
+.icon_search:hover + input:not(:focus){
+	background-color: #232323;
+}

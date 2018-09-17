@@ -1,0 +1,67 @@
+.form{
+	width: 220px;
+	text-align: center;
+	box-shadow: 0px 0px 1px #2e2e2e;
+	padding: 10px;
+	background-color: #f9f9f9;
+	margin: 0 auto;
+}
+.name_form{
+	font-size: 22px;
+	background-color: #efefef;
+  box-shadow: 0 0 1px #000;
+	position: relative;
+	top: -11px;
+	left: -15px;
+	width: 230px;
+}
+.form p:not(:first-child){
+	margin-top: 7px;
+}
+input[type=checkbox]{
+	float: left;
+}
+input[type=submit]{
+	position: relative;
+	top: 11px;
+	left: -15px;
+	width: 230px;
+	font-size: 16px;
+	background-color: #d4d5d5;
+}
+.checkbox_title{
+	float: left;
+	margin-top: -4px;
+}
+#music{
+	margin-bottom: 7px;
+}
+
+.ankets{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 300px;
+	box-shadow: 0px 0px 1px #2e2e2e;
+	padding: 10px;
+	background-color: #f9f9f9;
+}
+.ankets #show_ankets{
+	cursor: pointer;
+	background-color: #efefef;
+  box-shadow: 0 0 1px #000;
+  padding: 5px;
+  text-align: center;
+}
+.ankets div{
+	text-align: left;
+	box-shadow: 0px 0px 1px #2e2e2e;
+	padding: 7px;
+	display: none;
+}
+.ankets div:not(:last-child){
+	margin: 10px 0px;
+}
+.ankets span{
+	font-weight: bold;
+}
